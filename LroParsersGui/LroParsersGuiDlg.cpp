@@ -76,6 +76,7 @@ BEGIN_MESSAGE_MAP(CLroParsersGuiDlg, CDialogEx)
 	ON_BN_CLICKED(IDC_BUTTON3, &CLroParsersGuiDlg::OnBnClickedButton3)
 	ON_BN_CLICKED(IDC_BUTTON4, &CLroParsersGuiDlg::OnBnClickedButton4)
 	ON_BN_CLICKED(IDC_BUTTON5, &CLroParsersGuiDlg::OnBnClickedButton5)
+	ON_EN_CHANGE(IDC_EDIT2, &CLroParsersGuiDlg::OnEnChangeEdit2)
 END_MESSAGE_MAP()
 
 
@@ -122,6 +123,7 @@ BOOL CLroParsersGuiDlg::OnInitDialog()
 	m_listctrl.SetExtendedStyle(dwStyle);
 
 	m_check.SetCheck(TRUE);
+	m_check.EnableWindow(FALSE);
 
 	return TRUE; // 除非将焦点设置到控件，否则返回 TRUE
 }
@@ -404,4 +406,15 @@ void CLroParsersGuiDlg::OutputProject(int s_before, const Container* container)
 		content += L",";
 		OutputProject(container->s, node);
 	}
+}
+
+
+void CLroParsersGuiDlg::OnEnChangeEdit2()
+{
+	// TODO:  如果该控件是 RICHEDIT 控件，它将不
+	// 发送此通知，除非重写 CDialogEx::OnInitDialog()
+	// 函数并调用 CRichEditCtrl().SetEventMask()，
+	// 同时将 ENM_CHANGE 标志“或”运算到掩码中。
+
+	// TODO:  在此添加控件通知处理程序代码
 }

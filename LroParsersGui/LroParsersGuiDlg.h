@@ -54,4 +54,5 @@ public:
 
 	CString content;
 	CButton m_btnResult;
+	afx_msg void OnEnChangeEdit2();
 };

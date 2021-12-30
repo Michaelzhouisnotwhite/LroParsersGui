@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Expression">
+    <Position X="11.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAEAIIQAAAAAIAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>ExpressionLib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExpressionLib">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAAAAAAAgAAAAAAIAAAAAAAAAAAEAAAAAIAQAAAA=</HashCode>
+      <FileName>ExpressionLib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExpressionParser">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAIAAAACIAAAACCAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>ExpressionParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IoProcess">
+    <Position X="6.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAEBAAGBQBAAAAAAAAAAAAAAEAABAAAAAAAAgA=</HashCode>
+      <FileName>IoProcess.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Node">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAEAAAA=</HashCode>
+      <FileName>LR0_Parser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Container">
+    <Position X="9.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAABAAAAEAAAAAAAAAAAACAIAAIAQAAAAIAA=</HashCode>
+      <FileName>LR0_Parser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Row&lt;T&gt;">
+    <Position X="4.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAEAAAAAAAAAAACAgAAAAAAAAAA=</HashCode>
+      <FileName>LR0_Parser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Action">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAAABAAABAAAAAgCAAQA=</HashCode>
+      <FileName>LR0_Parser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Goto">
+    <Position X="11.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LR0_Parser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lr0AnalysisTable">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAABAAAAAAAAAAQAAAAAAAAEAAgAAAABAAAAAAAAAA=</HashCode>
+      <FileName>LR0_Parser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lr0Parsers">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAQAACIEYAFEIAEIgAIQABAIAAhAAAIIgAAAGAAI=</HashCode>
+      <FileName>LR0_Parser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="IsSelf">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAACAAAAAAQAAAAAAA=</HashCode>
+      <FileName>LR0_Parser.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

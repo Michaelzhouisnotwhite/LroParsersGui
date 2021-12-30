@@ -33,9 +33,6 @@
     <ClInclude Include="pch.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="ExpressionLib.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="ExpressionParser.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -55,6 +52,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionLib.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -102,6 +102,8 @@
     <None Include="README.md">
       <Filter>源文件</Filter>
     </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\LroParsersGui.ico">
